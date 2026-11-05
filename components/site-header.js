@@ -1,0 +1,5 @@
+"use client";
+import Link from "next/link";
+import { useState } from "react";
+import { CloseIcon, MenuIcon } from "./icons";
+export default function SiteHeader({ dark = false }) { const [open, setOpen] = useState(false); return <header className={`site-header ${dark ? "site-header--dark" : ""}`}><Link className="mini-brand" href="/" onClick={() => setOpen(false)}><span>Natürlich</span><span>unterwegs</span><small>ESTHER EBERT</small></Link><button className="menu-toggle" type="button" aria-label={open ? "Menü schließen" : "Menü öffnen"} aria-expanded={open} onClick={() => setOpen(!open)}>{open ? <CloseIcon /> : <MenuIcon />}</button><nav className={`mobile-menu ${open ? "mobile-menu--open" : ""}`} aria-label="Hauptnavigation"><Link href="/" onClick={() => setOpen(false)}>Startseite</Link><Link href="/probe" onClick={() => setOpen(false)}>Meine Probe anwenden</Link><Link href="/termin" onClick={() => setOpen(false)}>Termin vereinbaren</Link><Link href="/beratung" onClick={() => setOpen(false)}>Kontakt aufnehmen</Link></nav></header>; }

@@ -2,17 +2,17 @@
   "0": {
     "id": 0,
     "products": [
-      { "id": "bag-0-bride-balance", "name": "Bride Balance", "picture": "bride-balance.png", "description": "[Kurzbeschreibung für Bride Balance]", "application": "[Anwendungshinweise für Bride Balance]", "ingredients": "[Inhaltsstoffe und Hinweise für Bride Balance]" },
-      { "id": "bag-0-sanfte-handcreme", "name": "Sanfte Handcreme", "picture": "sanfte-handcreme.png", "description": "[Kurzbeschreibung für Sanfte Handcreme]", "application": "[Anwendungshinweise für Sanfte Handcreme]", "ingredients": "[Inhaltsstoffe und Hinweise für Sanfte Handcreme]" },
-      { "id": "bag-0-cleopatra-serum", "name": "Cleopatra Serum", "picture": "cleopatra-serum.png", "description": "[Kurzbeschreibung für Cleopatra Serum]", "application": "[Anwendungshinweise für Cleopatra Serum]", "ingredients": "[Inhaltsstoffe und Hinweise für Cleopatra Serum]" }
+      { "id": "bag-0-bride-balance", "name": "Bride Balance", "picture": "Prod3.jpeg", "description": "[Kurzbeschreibung für Bride Balance]", "application": "Bei Bedarf auf die Pulspunkte, Herzgegend und Vagusnerv auftragen.", "ingredients": ["Jojobaöl", "Adaptiv", "Balance", "Copaiba"] },
+      { "id": "bag-0-sanfte-haende", "name": "Sanfte Hände", "picture": "Prod1.jpeg", "description": "[Kurzbeschreibung für Sanfte Hände]", "application": "Eine kleine Menge in den Händen verreiben.", "ingredients": ["Mandelöl", "Kokosfett", "Sheabutter", "Bienenwachs", "Vitamin E", "Geranium", "Frankincense", "Myrrh", "Lavender", "Roman Chamomile"] },
+      { "id": "bag-0-cleopatra-serum", "name": "Cleopatra Serum", "picture": "Prod2.jpeg", "description": "[Kurzbeschreibung für Cleopatra Serum]", "application": "Auf das Gesicht oder beliebige andere Körperstellen auftragen.", "ingredients": ["Jojobaöl", "Rizinusöl", "Vitamin E", "Frankincense", "Myrrh", "Geranium", "Tea Tree", "Lavender"] }
     ]
   },
   "1": {
     "id": 1,
     "products": [
-      { "id": "bag-1-bride-balance", "name": "Bride Balance", "picture": "bride-balance.png", "description": "[Kurzbeschreibung für Bride Balance]", "application": "[Anwendungshinweise für Bride Balance]", "ingredients": "[Inhaltsstoffe und Hinweise für Bride Balance]" },
-      { "id": "bag-1-sanfte-handcreme", "name": "Sanfte Handcreme", "picture": "sanfte-handcreme.png", "description": "[Kurzbeschreibung für Sanfte Handcreme]", "application": "[Anwendungshinweise für Sanfte Handcreme]", "ingredients": "[Inhaltsstoffe und Hinweise für Sanfte Handcreme]" },
-      { "id": "bag-1-cleopatra-serum", "name": "Cleopatra Serum", "picture": "cleopatra-serum.png", "description": "[Kurzbeschreibung für Cleopatra Serum]", "application": "[Anwendungshinweise für Cleopatra Serum]", "ingredients": "[Inhaltsstoffe und Hinweise für Cleopatra Serum]" }
+      { "id": "bag-1-bride-balance", "name": "Bride Balance", "picture": "Prod3.jpeg", "description": "[Kurzbeschreibung für Bride Balance]", "application": "Bei Bedarf auf die Pulspunkte, Herzgegend und Vagusnerv auftragen.", "ingredients": ["Jojobaöl", "Adaptiv", "Balance", "Copaiba"] },
+      { "id": "bag-1-sanfte-haende", "name": "Sanfte Hände", "picture": "Prod1.jpeg", "description": "[Kurzbeschreibung für Sanfte Hände]", "application": "Eine kleine Menge in den Händen verreiben.", "ingredients": ["Mandelöl", "Kokosfett", "Sheabutter", "Bienenwachs", "Vitamin E", "Geranium", "Frankincense", "Myrrh", "Lavender", "Roman Chamomile"] },
+      { "id": "bag-1-cleopatra-serum", "name": "Cleopatra Serum", "picture": "Prod2.jpeg", "description": "[Kurzbeschreibung für Cleopatra Serum]", "application": "Auf das Gesicht oder beliebige andere Körperstellen auftragen.", "ingredients": ["Jojobaöl", "Rizinusöl", "Vitamin E", "Frankincense", "Myrrh", "Geranium", "Tea Tree", "Lavender"] }
     ]
   }
 }

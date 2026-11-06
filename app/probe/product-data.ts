@@ -1,6 +1,6 @@
 import productConfiguration from "./product-data.json";
 
-export type Product = { id: string; name: string; picture: string; description: string; application: string; ingredients: string };
+export type Product = { id: string; name: string; picture: string; description: string; application: string; ingredients: string[] };
 export type SampleBag = { id: 0 | 1; products: [Product, Product, Product] };
 
 export const sampleBags = productConfiguration as unknown as Record<0 | 1, SampleBag>;

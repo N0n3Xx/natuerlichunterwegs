@@ -15,7 +15,7 @@ function InfoCard({ icon: Icon, title, children, list = false }) {
 
 function ProductInfoCard({ product }) {
   const image = resolveProductImage(product.picture);
-  return <article className="info-card product-info-card"><div className="product-image-card" aria-label={`${product.name} Produktfoto`}>{image ? <Image src={image} alt={`${product.name} Produktfoto`} fill sizes="(min-width: 760px) 220px, 100vw" /> : <span className="product-image-card__fallback">Produktfoto folgt</span>}<div className="product-image-card__overlay">{product.name}</div></div></article>;
+  return <article className="info-card product-info-card"><div className="product-image-card" aria-label={`${product.name} Produktfoto`}>{image ? <Image src={image} alt={`${product.name} Produktfoto`} width={1200} height={1200} className="product-image" /> : <span className="product-image-card__fallback">Produktfoto folgt</span>}<div className="product-image-card__overlay">{product.name}</div></div></article>;
 }
 
 export default function ProbeExperience({ bag }) {
